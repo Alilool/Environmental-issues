@@ -1,0 +1,189 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Reset and defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: "Alexandria", sans-serif;
+    direction: rtl;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header and nav*/
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.selcted {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+a:hover {
+    color: #bbbaba;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+
+img,
+video {
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 20px;
+    border: 3px solid #3e3e3e;
+    width: 800px;
+    margin-left: 40px;
+}
+
+/*Section*/
+.solution {
+    margin: 25px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    color: #555;
+    max-width: 70%;
+    font-size: 1.5em;
+    margin: 20px auto;
+    font-weight: bolder;
+}
+
+span a {
+    color: blue;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+section div ul {
+    font-size: 1.2em;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.6em;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Media Queries */
+@media (max-width: 402px) {
+    img {
+        width: 300px;
+    }
+
+    nav ul li {
+        display: block;
+    }
+}
+
+@media (max-width: 470px) {
+    video {
+        width: 100%;
+    }
+}
+
+@media (max-width: 530px) {
+    img {
+        width: 400px;
+    }
+
+    li a {
+        font-size: 0.8em;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    .selcted {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 600px) {
+    section p {
+        font-size: 1.2em;
+    }
+
+    li {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 808px) {
+    video {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1400px) {
+    section {
+        flex-direction: column;
+    }
+
+    img,
+    video {
+        margin-left: auto;
+    }
+
+    section {
+        margin-top: 0;
+    }
+
+}
