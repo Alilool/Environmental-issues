@@ -73,7 +73,8 @@ video {
 
 /*Section*/
 .solution {
-    margin: 25px;
+    max-width: 600px;
+    margin: auto;
 }
 
 section {
@@ -102,9 +103,6 @@ span a {
     font-size: 1.1em;
 }
 
-ul {
-    list-style-position: inside;
-}
 
 section div ul {
     font-size: 1.2em;
