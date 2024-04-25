@@ -51,7 +51,7 @@ li a {
 }
 
 
-a:hover {
+li a:hover {
     color: #bbbaba;
 }
 
@@ -108,6 +108,26 @@ section div ul {
     font-size: 1.2em;
 }
 
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #4e72a1;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #425c7e;
+}
 
 /* Footer */
 footer {
